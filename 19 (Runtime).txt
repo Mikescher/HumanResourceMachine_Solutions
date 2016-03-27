@@ -1,0 +1,101 @@
+-- HUMAN RESOURCE MACHINE PROGRAM --
+
+    JUMP     x
+a:
+b:
+c:
+d:
+e:
+f:
+g:
+h:
+i:
+j:
+k:
+l:
+m:
+n:
+o:
+p:
+q:
+r:
+s:
+t:
+u:
+v:
+w:
+    OUTBOX  
+x:
+    INBOX   
+    COPYTO   4
+    JUMPZ    w
+    JUMPN    y
+    OUTBOX  
+    BUMPDN   4
+    JUMPZ    a
+    OUTBOX  
+    BUMPDN   4
+    JUMPZ    b
+    OUTBOX  
+    BUMPDN   4
+    JUMPZ    d
+    OUTBOX  
+    BUMPDN   4
+    JUMPZ    e
+    OUTBOX  
+    BUMPDN   4
+    JUMPZ    f
+    OUTBOX  
+    BUMPDN   4
+    JUMPZ    g
+    OUTBOX  
+    BUMPDN   4
+    JUMPZ    h
+    OUTBOX  
+    BUMPDN   4
+    JUMPZ    i
+    OUTBOX  
+    BUMPDN   4
+    JUMPZ    j
+    OUTBOX  
+    BUMPDN   4
+    JUMPZ    k
+    OUTBOX  
+    BUMPDN   4
+    JUMPZ    l
+y:
+    OUTBOX  
+    BUMPUP   4
+    JUMPZ    c
+    OUTBOX  
+    BUMPUP   4
+    JUMPZ    m
+    OUTBOX  
+    BUMPUP   4
+    JUMPZ    n
+    OUTBOX  
+    BUMPUP   4
+    JUMPZ    o
+    OUTBOX  
+    BUMPUP   4
+    JUMPZ    p
+    OUTBOX  
+    BUMPUP   4
+    JUMPZ    q
+    OUTBOX  
+    BUMPUP   4
+    JUMPZ    r
+    OUTBOX  
+    BUMPUP   4
+    JUMPZ    s
+    OUTBOX  
+    BUMPUP   4
+    JUMPZ    t
+    OUTBOX  
+    BUMPUP   4
+    JUMPZ    u
+    OUTBOX  
+    BUMPUP   4
+    JUMPZ    v
+
+

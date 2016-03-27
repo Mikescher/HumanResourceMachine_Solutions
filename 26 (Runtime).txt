@@ -1,0 +1,74 @@
+-- HUMAN RESOURCE MACHINE PROGRAM --
+
+    BUMPDN   9
+a:
+    COPYTO   8
+    INBOX   
+    COPYTO   0
+    INBOX   
+    COPYTO   1
+    COPYFROM 0
+    SUB      1
+    JUMPN    h
+    SUB      1
+    JUMPN    g
+    SUB      1
+    JUMPN    f
+    SUB      1
+    JUMPN    e
+    SUB      1
+    JUMPN    d
+    SUB      1
+    JUMPN    c
+    SUB      1
+    JUMPN    b
+    COMMENT  0
+b:
+    BUMPUP   8
+c:
+    BUMPUP   8
+d:
+    BUMPUP   8
+e:
+    BUMPUP   8
+f:
+    BUMPUP   8
+g:
+    BUMPUP   8
+h:
+    BUMPUP   8
+    OUTBOX  
+    COPYFROM 9
+    JUMP     a
+
+
+DEFINE COMMENT 0
+eJxzZWBg6NZ7z3pBR1Rxgk6u0QzNgMoHaiGrLmmHrMqwfr69yXPvcWN/+5NAZQyHDHNZNplX8pb6KWqB
++M2GmbH37czSb4efLAHxPcvqBDjL/GUnF4X4hRW2FUkWJLTezdPrv5tXOkU+z3pGZEFdztVCrbjekhC/
+2qot5h/rco1mtecaCXS/N3aasMOqfmJCeNOEg3kefV2lZ3p4ysU6jxZuqnsU8aVWLbq4rjQtt0GwKrX5
+dU/9xO6LVZOn3yqfInkHZG/l6sLk4rWZO03WJj7cukbt6aLNzk5ztyZoSm6/pnhpZ4jC8b3vjR0OnHT7
+dliwyuzI886Kw1o9Dgde93jvWdH1d2VbUeE62WbFLUaTvh1uOyd6wf47wygYBSMIAAAn63qg;
+
+DEFINE LABEL 0
+eJyTZmBgYDfgkODSf657QcfddbJ2alSbgaRKm0GIwgl9QbnJ2u7iMzSPitbIsIhyi8eoTRQxsxQW+Zxy
+TvRP1mqlydUP1CLqRbQlGwJ1BKuARjEYpZ+U8I8ptdANzE14ZbVih6f+40cyGnXfPij9/88wCkbBKBh0
+AACPfCQt;
+
+DEFINE LABEL 1
+eJyTZmBgaK5gEeUp5ZGWLLC2yclcEjkxWq1zScjemV1uRgemOx48tcNU8s5sjR8fgUoZ1JpPluQ2mB/O
+bVjxbGkz7+WLXbl72Pq1dplOzd1jMH3LQYPpbedMp8ret5iy5PHvSalPmiakPvHtibm3tTbkBsMoGAWj
+YNABAHMhMZg;
+
+DEFINE LABEL 8
+eJyzZGBgENcS9JHSDKm5pcFy1k+Xw41L39qmzcDIzM5Yz7jMTM94ldUWczl7Bofpjt4eEY63gmLtV8Ss
+sP6c4mZQl9Otx1Loo9dVekovoPKT+YquVVZGkzSt/8x4Y+k8z8S8a7Gfbv8yoBUMNyJOXvibZJb+NfWP
+zboMI44XWSzOKTmCPnfzJvtuqmNwaO8rtciaucU8cY6Z5d251jbxc/9kPZ59rTZl9tH5IP23trUV3dq2
+pldsx4od17f/OOy3O6TGY6+9fes+I7M/B9cYbjmSazT/jLWN8EV314sXBX3UTr2OqzhclXlqz95shlEw
+CkYBTgAAEXthPA;
+
+DEFINE LABEL 9
+eJzTYWBgcDPguFBn/Dx6r/Eaw7emDGAww5KBYZXVQaFoBx7Pfpf3iSfd/mRZ+wR4vwsws8wK0jIAqTkR
+lxDOFbcl9XTs0flMiU2n9yWdvGCe6nPpaXbZIZYKwarvNTEhZrUHHUBq/00M8N43UTbUtZ+jZHrHih3T
+O+xPTuk8erar1/38lqlt5+LnMpziXfL5gOOK59tB6nt3Tw8I2PUnS3DXwTnee9rO/Tz0/OnNc9ZfGEbB
+KBgFVAUAhb5NTw;
+
