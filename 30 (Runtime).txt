@@ -1,0 +1,31 @@
+-- HUMAN RESOURCE MACHINE PROGRAM --
+
+a:
+b:
+c:
+d:
+    INBOX   
+    COPYTO   24
+    COPYFROM [24]
+    OUTBOX  
+    BUMPUP   24
+e:
+    COPYFROM [24]
+    JUMPZ    d
+    OUTBOX  
+    BUMPUP   24
+    COPYFROM [24]
+    JUMPZ    c
+    OUTBOX  
+    BUMPUP   24
+    COPYFROM [24]
+    JUMPZ    b
+    OUTBOX  
+    BUMPUP   24
+    COPYFROM [24]
+    JUMPZ    a
+    OUTBOX  
+    BUMPUP   24
+    JUMP     e
+
+

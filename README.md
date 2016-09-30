@@ -35,11 +35,11 @@ I try to complete every level with the two extra conditions (one is a maximum ru
  026   | **Yes** |  15 /  15       | ** 63 / 76**
  *027* | *story* |  *story*        | *story*  
  028   | **Yes** |  33 /  34       |    78 / 78 
- 029   | No      |     ?           |     ?    
- 030   | No      |     ?           |     ?    
- 031   | No      |     ?           |     ?    
- 032   | No      |     ?           |     ?    
- 033   | No      |     ?           |     ?    
+ 029   | **Yes** |   5 /   5       |    20 / 25    
+ 030   | **Yes** |   7 /   7       | **160 /203** 
+ 031   | **Yes** |  10 /  11       |    96 /122
+ 032   | **Yes** |  16 /  16       |   311 /393 &nbsp; &nbsp; ( **51/393** with tricks (^2) )
+ *033* | *story* |  *story*        | *story*  
  034   | No      |     ?           |     ?    
  035   | No      |     ?           |     ?    
  036   | No      |     ?           |     ?    
@@ -52,7 +52,12 @@ I try to complete every level with the two extra conditions (one is a maximum ru
 
 *Note:* There are sometimes levels with an solution for both conditions and an extra solution only for runtime. That's because, while the first meets both conditions, I found another algorithm to solve the level even faster (with the cost of increasing the operations count).
 
-I highly recommend you to buy the game and play for yourself - only look here for ~~solutions~~ hints if you are genuinely* stuck.
+I highly recommend you to buy the game and play for yourself - only look here for ~~solutions~~ hints if you are genuinely(^1) stuck.
 
 
-** like stuck for multiple hours trying*
+---------------
+
+
+*(^1) like stuck for multiple hours trying*
+
+(^2) In Level 32 I achieved a runtime of 52 by creating a map of the different occurrences at compile-time (B=5, C=2 ...) and then simply testing which letter comes from the INPUT. This only works as long as the floor stays the same between multiple runs. But it seems like it does :).

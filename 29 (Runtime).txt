@@ -1,0 +1,24 @@
+-- HUMAN RESOURCE MACHINE PROGRAM --
+
+    INBOX   
+    COPYTO   12
+    COPYFROM [12]
+    OUTBOX  
+    INBOX   
+    COPYTO   12
+    COPYFROM [12]
+    OUTBOX  
+    INBOX   
+    COPYTO   12
+    COPYFROM [12]
+    OUTBOX  
+    INBOX   
+    COPYTO   12
+    COPYFROM [12]
+    OUTBOX  
+    INBOX   
+    COPYTO   12
+    COPYFROM [12]
+    OUTBOX  
+
+

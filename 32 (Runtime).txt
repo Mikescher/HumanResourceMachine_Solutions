@@ -1,0 +1,191 @@
+-- HUMAN RESOURCE MACHINE PROGRAM --
+
+a:
+    COPYFROM 14
+    COPYTO   15
+    COPYTO   16
+    INBOX   
+    COPYTO   17
+
+
+
+    COPYFROM [15]
+    SUB      17
+    JUMPZ    c
+    JUMP     d
+c:
+    BUMPUP   16
+d:
+    BUMPUP   15
+
+
+
+    COPYFROM [15]
+    SUB      17
+    JUMPZ    f
+    JUMP     g
+f:
+    BUMPUP   16
+g:
+    BUMPUP   15
+
+
+
+    COPYFROM [15]
+    SUB      17
+    JUMPZ    h
+    JUMP     i
+h:
+    BUMPUP   16
+i:
+    BUMPUP   15
+
+
+
+    COPYFROM [15]
+    SUB      17
+    JUMPZ    j
+    JUMP     k
+j:
+    BUMPUP   16
+k:
+    BUMPUP   15
+
+
+
+    COPYFROM [15]
+    SUB      17
+    JUMPZ    m
+    JUMP     l
+m:
+    BUMPUP   16
+l:
+    BUMPUP   15
+
+
+
+    COPYFROM [15]
+    SUB      17
+    JUMPZ    n
+    JUMP     o
+n:
+    BUMPUP   16
+o:
+    BUMPUP   15
+
+
+
+    COPYFROM [15]
+    SUB      17
+    JUMPZ    p
+    JUMP     q
+p:
+    BUMPUP   16
+q:
+    BUMPUP   15
+
+
+
+    COPYFROM [15]
+    SUB      17
+    JUMPZ    r
+    JUMP     s
+r:
+    BUMPUP   16
+s:
+    BUMPUP   15
+
+
+
+    COPYFROM [15]
+    SUB      17
+    JUMPZ    t
+    JUMP     u
+t:
+    BUMPUP   16
+u:
+    BUMPUP   15
+
+
+
+    COPYFROM [15]
+    SUB      17
+    JUMPZ    v
+    JUMP     w
+v:
+    BUMPUP   16
+w:
+    BUMPUP   15
+
+
+
+    COPYFROM [15]
+    SUB      17
+    JUMPZ    x
+    JUMP     y
+x:
+    BUMPUP   16
+y:
+    BUMPUP   15
+
+
+
+    COPYFROM [15]
+    SUB      17
+    JUMPZ    z
+    JUMP     aa
+z:
+    BUMPUP   16
+aa:
+    BUMPUP   15
+
+
+
+    COPYFROM [15]
+    SUB      17
+    JUMPZ    ab
+    JUMP     ac
+ab:
+    BUMPUP   16
+ac:
+    BUMPUP   15
+
+
+
+    COPYFROM [15]
+    SUB      17
+    JUMPZ    ad
+    JUMP     ae
+ad:
+    BUMPUP   16
+ae:
+
+
+
+    COPYFROM 16
+    OUTBOX  
+    JUMP     a
+
+
+DEFINE LABEL 15
+eJzTYmBg0LM0SrE03ZL6WkmywUghtcNUXq+/RN5s6kYFhjmPVUVXB+o8337HXmsXUClDXZK3h0tCalRU
+xOzG5cHO83QD5296F/B+r2Ku3t6j5anbchsk1yW39C+709Y0V7o9pmlRi2AVSF/OjA1J66ZvmPB6xvxN
+K2eeW5o1U7Dq2Sz34nlzjxaC5C/tXBIpuV2rZ9a22evFdpxcFLBr57R/B0Rr9Y6nRnldKbVgGAWjYBTQ
+BAAAEHtJQg;
+
+DEFINE LABEL 16
+eJyzZWBgCHV6Hv3L5FHEUQO1aH7dDUniWgx5Mhq3GmZobpiQYBewnNtt8kqgMoZpkfeab4fPb1kY+rxT
+O+jH1NzAg3OygniXpoaIrp4WKbmuLV5y3Yd00dWPcgKWRxYcnT+1cMME8cLZjYq5dTlp2VWZn9KcC34l
+32oAmdU0oav0TM/0uv7ux20C3e4L+XpCVrn2R6xdPPvWus6l11Z/XXNu6dv1zvNWbDSa9HwjTzlIz4Rd
+B/M89m6ZzHiga/G/A95LlpySbBC9wFMufDGgUvji3pkXL4asAqnze/XdkuuNWbrdh5OLvn9K3Pzpy+td
+IHGpZ1WZ3a/1EhlGwSgYBXAAAFPkcho;
+
+DEFINE LABEL 17
+eJyLY2BgsJd+FOEq+brHVVJwRaNU12JzuZMl+Ypm6auVPqekq2xJjdGoy5ms3VUaqHOt9oKO0SSgFoZd
+JkcLn1uL1ko6zm58Hfi4TShasc09/l4zQ1JApVPi0UKh6MxY1ZD5YVU+88OOeKhF87luSX1u/bzzlZXR
+pFdWVdMlHe1ns3kwzAGZFZfXXyGTL9lwtTCmqbT2XnNyS0S9Qqtg1aKWkyWrGhnyjpZ/Tgks/pyyLLsq
+823GwTz9jIDKdRn3mpdll065n3twzvWCrsXepddWN1TKbgSZ17e41IJ3iaCPzxKtXX2L9fYGLpq+JnzB
+yUVKc3ZOS59VOuX1jC2T86fvnLZlasDyomn3Nr6Y+Xx7/FytXSC9Tfv1jJ333wv9d8B7yZ+DEWvnn4nZ
+ABL/cPdg3osHXaU3noXUeL6JqP/yWbJB8fe12oh/AZXX/x0tfPjrdZzh14TwjjeKEfyvVsSEvNiQNPvp
+0cJlD+tmvb13a92Hu1VHP9z1ufT6/rWbM57NvsswCkbBIAEA5nO3qw;
+
