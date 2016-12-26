@@ -40,9 +40,9 @@ I try to complete every level with the two extra conditions (one is a maximum ru
  031   | **Yes** |  10 /  11       |    96 /122
  032   | **Yes** |  16 /  16       |   311 /393 &nbsp; &nbsp; ( **51/393** with tricks (^2) )
  *033* | *story* |  *story*        | *story*  
- 034   | No      |     ?           |     ?    
+ 034   | **Yes** |  13 /  13       | **157 /323**   
  035   | No      |     ?           |     ?    
- 036   | No      |     ?           |     ?    
+ 036   | **Yes** |  39 /  39       |       /111
  037   | No      |     ?           |     ?    
  038   | No      |     ?           |     ?    
  039   | No      |     ?           |     ?    
