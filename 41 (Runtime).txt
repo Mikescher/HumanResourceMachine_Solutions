@@ -1,0 +1,61 @@
+-- HUMAN RESOURCE MACHINE PROGRAM --
+
+a:
+    INBOX   
+    JUMPZ    d
+    COPYTO   [24]
+b:
+    BUMPUP   24
+    JUMP     a
+c:
+    COPYFROM [22]
+    OUTBOX  
+    COPYFROM [24]
+    COPYTO   [22]
+d:
+    BUMPDN   24
+    JUMPN    b
+    COPYTO   23
+e:
+    COPYFROM 23
+    COPYTO   22
+f:
+    BUMPDN   23
+    JUMPN    c
+    COPYFROM [22]
+    SUB      [23]
+    JUMPN    f
+    JUMP     e
+
+
+DEFINE LABEL 20
+eJwzZ2BgOGoQcuOb74pnIkXmH1c1ln2Qa9vwZla71otZ7dduyrUdPJXQqrXrSXN/xZPmQvb39e9Zrxbu
+4HmV+Z27LFWP9VAcAxh8NGFgqDPOZWEyquTVs9zCecRjC+d2XzNujeC9/AcS9/LXJe3gcUn4zv0yyF7w
+vEudwHPrHTwm5jt4TugzCB01uCR31GCNIZe+0aQGI9n7IPMsTU9KbDUTVVS0MzKTs7e2CXY+6+nhPjvY
+2fNe6E+fvdnvAgIqs4L6K5JCjxZei/yT5RP7PrElISYkrHCxdmu5qOKbhqOiDKNgFIwCggAAe4FZgw;
+
+DEFINE LABEL 22
+eJzjZWBgWGpzSe66o6LWfi9316iIzykf0ue3+JXsnAaUYigz2zK52Fyt87m1c4G1z17bvhgOCZC4QPbi
+WN38snzh4oNTz5eI7Qgu+3EYJH6ucftM26bI/SB2fGNSOYhmaO9endSpsGVWp//hWZ1b9xj3RM+J62vu
+6ZhwvzNystLEmdP+zyubrr+Ofbo/2AxagOmLt89MWHxssveiygn9C9T7H8yRnVw/i2Vu5szu1Qtnrj4Q
+M/vzUd15r042Lfp8FKSedaPs5JKNWdNWbxTb8WPTkW28W2o23tsWNk9ul8TURbslpq7alzrD7LDJGrPD
+ClucDy48wnPw6WnFQ15gvWsuJ5WvuezQqnFJf53Gpf07Si9PPtV688HZAw+NzvM+Nj/L+/jVSZA6hfM+
+i/QfbZ9JKz+PglFADAAAKEyKhw;
+
+DEFINE LABEL 23
+eJwTZGBgMPY/WrjdV62z3Lf74rywg3OCotf0Tos8Ol8q4vWuaZFGB87FlB3yLk3dltuQum16R+F+3566
+E129HBe6emff5ej5/5+BSKAWb9b5J+Zq7/pojyVyMW1rt8cVbb2alLtdKeXINp+0R6t2p81a6pOWNe1/
+yoX+RwkOrSA9miVCwaWlP+pLS6Pn7CoW3LWruHwzSHxBeXNPfOO75prWP7UgvmOtTm94nd2KxfXnNvG2
+PjgLEutf8LlxycLtM3MXNq6vmr9/h8TcqiumC/fv6Fo6dTlI3nThTXcQnbPuXbPQ+tztf9euPiC/dsO+
+aRs8lrRst27P2h1RzXOwro/n4KbZAfsFd4HU/jtv1ql7Vr3f/eTihUYn9NfxnxTboXoqcr//Ga+jVec+
+H226yL4v+ErNxvlXfy04dEW9/801/XUFN/bv2Htz5WO+a7+ffDrCdV/vQPatPdvPXCU23EbBKKAlAABc
+h6ph;
+
+DEFINE LABEL 24
+eJzjZmBg6O+2z33SzFKo13Ct1rLm8yTHynsbWSqsj/2pOno2oqP/ClAJQ0H9awMQnRy1peJkuEpeemhX
+unSIRdpf/xMFff7cFeH+T9pTfPXXfQjcv+NaaOT+12GR+0Hqf2c6tLpnn57oni29bWHWrKUSeQsb/hXm
+FHsXi5bwV5h1bq3YNPt6edFWkNrmqf71EyZ/bizur+sr7p+/+PuEu2siJ2ttaJ76aNW66SvmG808OPXG
+zCftMbObex7MOTj129yPS77N9XixbMrm+2f6zlwFmVGyMS/gw3qVvA/rPzfabNTpFd3OMldy/6NVPAdN
+1rw6aLlK74DHEpC6sLU5xc92ipboHSgsBPEzT2wL3XZyW2jh6a70b2durMu9sH3mk8uMNRlXBcomXd9X
+8vy2f33jvau9rA/mLz5732TNjnvnNjGMglEwDAAA8GudAg;
+

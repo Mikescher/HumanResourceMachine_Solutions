@@ -1,0 +1,44 @@
+-- HUMAN RESOURCE MACHINE PROGRAM --
+
+a:
+b:
+c:
+d:
+    INBOX   
+    SUB      15
+    JUMPN    g
+    SUB      15
+    JUMPN    f
+    SUB      15
+    JUMPN    e
+    OUTBOX  
+    COPYFROM 15
+    COPYTO   12
+    BUMPDN   12
+    OUTBOX  
+    JUMP     a
+e:
+    ADD      15
+    OUTBOX  
+    COPYFROM 15
+    COPYTO   12
+    BUMPDN   12
+    BUMPDN   12
+    OUTBOX  
+    JUMP     d
+f:
+    ADD      15
+    OUTBOX  
+    COPYFROM 14
+    COPYTO   12
+    BUMPUP   12
+    OUTBOX  
+    JUMP     c
+g:
+    ADD      15
+    OUTBOX  
+    COPYFROM 14
+    OUTBOX  
+    JUMP     b
+
+

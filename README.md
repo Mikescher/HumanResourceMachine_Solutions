@@ -41,14 +41,14 @@ I try to complete every level with the two extra conditions (one is a maximum ru
  032   | **Yes** |  16 /  16       |   311 /393 &nbsp; &nbsp; ( **51/393** with tricks (^2) )
  *033* | *story* |  *story*        | *story*  
  034   | **Yes** |  13 /  13       | **157 /323**   
- 035   | No      |     ?           |     ?    
+ 035   | **Yes** |  16 /  17       | **74 /167**
  036   | **Yes** |  39 /  39       |   109 /111
- 037   | No      |     ?           |     ?    
+ 037   | **Yes** |   8 /   8       |   36 / 36
  038   | **Yes** |  38 /  38       |   132 /165
- 039   | No      |     ?           |     ?    
- 040   | No      |  24 /  28       | **105 /399**   
- 041   | No      |     ?           |     ?    
- 042   | No      |     ?           |     ?    
+ 039   | **Yes** |  14 /  14       |    47 / 76
+ 040   | **Yes** |  24 /  28       | **105 /399**   
+ 041   | **Yes** |  34 /  34       |   670 /714
+ *042* | *story* |  *story*        | *story*  
 
 *Note:* There are sometimes levels with an solution for both conditions and an extra solution only for runtime. That's because, while the first meets both conditions, I found another algorithm to solve the level even faster (with the cost of increasing the operations count).
 
