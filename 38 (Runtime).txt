@@ -1,0 +1,283 @@
+-- HUMAN RESOURCE MACHINE PROGRAM --
+
+a:
+    INBOX   
+    COPYTO   0
+    SUB      10
+    JUMPN    af
+    COPYFROM 0
+    SUB      11
+    JUMPN    b
+    SUB      11
+    JUMPN    c
+    SUB      11
+    JUMPN    d
+    SUB      11
+    JUMPN    e
+    SUB      11
+    JUMPN    f
+    SUB      11
+    JUMPN    g
+    SUB      11
+    JUMPN    h
+    SUB      11
+    JUMPN    i
+    SUB      11
+    JUMPN    j
+    JUMP     k
+b:
+    ADD      11
+    COPYTO   0
+    JUMP     l
+c:
+    ADD      11
+    COPYTO   0
+    COPYFROM 9
+    COPYTO   6
+    BUMPUP   6
+    OUTBOX  
+    JUMP     u
+d:
+    ADD      11
+    COPYTO   0
+    COPYFROM 9
+    COPYTO   6
+    BUMPUP   6
+    BUMPUP   6
+    OUTBOX  
+    JUMP     t
+e:
+    ADD      11
+    COPYTO   0
+    COPYFROM 9
+    COPYTO   6
+    BUMPUP   6
+    BUMPUP   6
+    BUMPUP   6
+    OUTBOX  
+    JUMP     s
+f:
+    ADD      11
+    COPYTO   0
+    COPYFROM 9
+    COPYTO   6
+    BUMPUP   6
+    BUMPUP   6
+    ADD      6
+    OUTBOX  
+    JUMP     r
+g:
+    ADD      11
+    COPYTO   0
+    COPYFROM 9
+    COPYTO   6
+    BUMPUP   6
+    BUMPUP   6
+    BUMPUP   6
+    BUMPUP   6
+    BUMPUP   6
+    OUTBOX  
+    JUMP     q
+h:
+    ADD      11
+    COPYTO   0
+    COPYFROM 9
+    COPYTO   6
+    BUMPUP   6
+    BUMPUP   6
+    ADD      6
+    ADD      6
+    OUTBOX  
+    JUMP     p
+i:
+    ADD      11
+    COPYTO   0
+    COPYFROM 10
+    COPYTO   6
+    BUMPDN   6
+    BUMPDN   6
+    BUMPDN   6
+    OUTBOX  
+    JUMP     o
+j:
+    ADD      11
+    COPYTO   0
+    COPYFROM 10
+    COPYTO   6
+    BUMPDN   6
+    BUMPDN   6
+    OUTBOX  
+    JUMP     n
+k:
+    COPYTO   0
+    COPYFROM 10
+    COPYTO   6
+    BUMPDN   6
+    OUTBOX  
+    JUMP     m
+l:
+m:
+n:
+o:
+p:
+q:
+r:
+s:
+t:
+u:
+    COPYFROM 0
+    SUB      10
+    JUMPN    v
+    SUB      10
+    JUMPN    w
+    SUB      10
+    JUMPN    x
+    SUB      10
+    JUMPN    y
+    SUB      10
+    JUMPN    z
+    SUB      10
+    JUMPN    aa
+    SUB      10
+    JUMPN    ab
+    SUB      10
+    JUMPN    ac
+    SUB      10
+    JUMPN    ad
+    JUMP     ae
+v:
+    ADD      10
+    COPYTO   0
+    COPYFROM 9
+    OUTBOX  
+    JUMP     ap
+w:
+    ADD      10
+    COPYTO   0
+    COPYFROM 9
+    COPYTO   6
+    BUMPUP   6
+    OUTBOX  
+    JUMP     ao
+x:
+    ADD      10
+    COPYTO   0
+    COPYFROM 9
+    COPYTO   6
+    BUMPUP   6
+    BUMPUP   6
+    OUTBOX  
+    JUMP     an
+y:
+    ADD      10
+    COPYTO   0
+    COPYFROM 9
+    COPYTO   6
+    BUMPUP   6
+    BUMPUP   6
+    BUMPUP   6
+    OUTBOX  
+    JUMP     am
+z:
+    ADD      10
+    COPYTO   0
+    COPYFROM 9
+    COPYTO   6
+    BUMPUP   6
+    BUMPUP   6
+    ADD      6
+    OUTBOX  
+    JUMP     al
+aa:
+    ADD      10
+    COPYTO   0
+    COPYFROM 9
+    COPYTO   6
+    BUMPUP   6
+    BUMPUP   6
+    BUMPUP   6
+    BUMPUP   6
+    BUMPUP   6
+    OUTBOX  
+    JUMP     ak
+ab:
+    ADD      10
+    COPYTO   0
+    COPYFROM 9
+    COPYTO   6
+    BUMPUP   6
+    BUMPUP   6
+    ADD      6
+    ADD      6
+    OUTBOX  
+    JUMP     aj
+ac:
+    ADD      10
+    COPYTO   0
+    COPYFROM 10
+    COPYTO   6
+    BUMPDN   6
+    BUMPDN   6
+    BUMPDN   6
+    OUTBOX  
+    JUMP     ai
+ad:
+    ADD      10
+    COPYTO   0
+    COPYFROM 10
+    COPYTO   6
+    BUMPDN   6
+    BUMPDN   6
+    OUTBOX  
+    JUMP     ah
+ae:
+    COPYTO   0
+    COPYFROM 10
+    COPYTO   6
+    BUMPDN   6
+    OUTBOX  
+    JUMP     ag
+af:
+ag:
+ah:
+ai:
+aj:
+ak:
+al:
+am:
+an:
+ao:
+ap:
+    COPYFROM 0
+    OUTBOX  
+    JUMP     a
+
+
+DEFINE LABEL 0
+eJwTYmBgCIn6nHI5iqXQPZ5jEUNSxNofKT8Of0g/dzknM/XJiyy910+ztV7cz712Uz6v7dzsfOtjgcX9
+y86WcCz6X5naYVkzu/Fl4+cUhlEwCkbBkAQAu1ElLQ;
+
+DEFINE LABEL 6
+eJyTZmBgmBmh1pkevKLLwct6xhnXk4tCneZvEnbW2sXsaXRgZVDZobb4LQdXZOntBSpliIpQjJANvxeq
+EDY/TCFMLTomXC/RJ7YwmTWhMLkuKTfBJjk1yiZ5drBTYojf5ahr/lEREYFzwmcHh0de8mEYBaNgFAw6
+AAA32ijQ;
+
+DEFINE LABEL 9
+eJyzYGBgSAp9/jQ+bPqt+DDeywphr3cph3YtXhj6vj8+LLVDNlyxLSpCrTMo2n42a4LkOvukNbutUrYc
+3JzWf+Vtxq07Wll1JzKz3verZ1+rTcnhKAEaxxBY3F8hWNy/LLB4xQ7+Er2954s/v2Mvz321veb5U+O6
+xIfFdW3nDOurjn6s+zHVuC6iHqRHokOwSqJjSXto558ZoZ11J6Z0it4M6kp8eKXz9QvmCYkPf09a8ODH
+5CWPQWrj554skZ/rPC9xTsTaB3M2vAlf8Pzp5YUx9/wX37pzYMW9+7tXab14uz7zeeZGtacMo2AUjAK8
+AAAEOXDB;
+
+DEFINE LABEL 10
+eJwzYmBgOGoQsorJqH/ZDlOORRss6mblWTrPe2NpdGCtZd2J9xZNp99bCF7bZH7vfrH51vdA5QzG/oUT
+Gb2MJh3xKJ1yxpVhDp9r2wIxp8krrzve2yjp+HiLpKPeXjEn+5NiTs+fRjiaf/Rw//Hxn5fRu5VBW98v
+CdF6sTD02k3l0LoTy4O1dqmGHJ3/LNh+tkbwnxnG/jungcw/HbthQktCZvfuZMmGHykR9T9SJleXpHGU
+rMuwz32bUZWplbUzQytLsOpptlbPsuz+ZS+y7m1kGAWjYBSQBQD5hlxq;
+
+DEFINE LABEL 11
+eJzTZGBgYDF0X1hgYTRJzaZw4iyHzO7pjjuPTHfc8AYoxXAv7F6zRvD8lncBS9qL/LV6LHz3zvzpw7v0
+m6/o6m++j7cYBJy7XOS/5PFG/63v8wN+fFQNMf8YH7bhjXv8hjesCbmvWhJk7x+LP3mhLV5pi1dc12KO
+eLXOvph7zRKRCa0g89dlbEhSz9aKiyx4Hu1dWpjsWcZSGFYo2RCXJ9uck1k6xbNsy2SGUTAKRgHNAAD4
+hEi/;
+

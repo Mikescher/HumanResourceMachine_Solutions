@@ -42,11 +42,11 @@ I try to complete every level with the two extra conditions (one is a maximum ru
  *033* | *story* |  *story*        | *story*  
  034   | **Yes** |  13 /  13       | **157 /323**   
  035   | No      |     ?           |     ?    
- 036   | **Yes** |  39 /  39       |       /111
+ 036   | **Yes** |  39 /  39       |   109 /111
  037   | No      |     ?           |     ?    
- 038   | No      |     ?           |     ?    
+ 038   | **Yes** |  38 /  38       |   132 /165
  039   | No      |     ?           |     ?    
- 040   | No      |     ?           |     ?    
+ 040   | No      |  24 /  28       | **105 /399**   
  041   | No      |     ?           |     ?    
  042   | No      |     ?           |     ?    
 
